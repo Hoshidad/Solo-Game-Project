@@ -1,0 +1,3254 @@
+"""
+Dungeon Escape
+
+"""
+
+# BITSY VERSION 8.9
+
+! VER_MAJ 8
+! VER_MIN 9
+! ROOM_FORMAT 1
+! DLG_COMPAT 0
+! TXT_MODE 0
+
+PAL 0
+119,116,121
+100,1,29
+151,22,13
+NAME Room 1
+
+PAL 1
+255,75,0
+0,0,255
+0,222,255
+NAME Room 3
+
+PAL 2
+85,46,27
+41,185,51
+41,185,51
+NAME Room 4
+
+ROOM 0
+d,c,c,c,c,c,c,p,o,c,c,c,c,c,c,e
+a,0,0,0,0,0,q,0,0,0,0,0,0,0,0,b
+a,0,q,q,0,0,q,q,q,0,q,0,0,0,0,b
+a,0,0,q,0,0,0,0,0,0,0,0,q,0,0,b
+a,0,q,q,0,0,0,0,q,0,0,0,q,q,0,b
+a,q,q,0,0,q,0,0,0,0,0,0,0,q,q,b
+a,0,0,0,q,0,0,0,0,0,0,0,0,q,0,b
+0,0,0,q,q,0,0,0,0,0,0,0,0,q,0,n
+0,0,0,q,0,0,0,0,0,0,0,q,q,0,0,m
+a,0,0,0,0,q,q,0,0,0,q,q,0,0,0,b
+a,q,q,0,0,0,q,0,0,0,q,0,q,q,q,b
+a,0,q,q,0,0,0,q,0,0,q,0,q,0,0,b
+a,0,0,q,0,0,0,0,0,0,0,0,q,q,0,b
+a,q,q,q,0,0,0,0,0,0,0,0,0,q,q,b
+a,q,0,0,0,0,0,0,0,0,0,0,0,0,0,b
+g,h,h,h,h,h,h,k,l,h,h,h,h,h,h,f
+NAME Room 1
+EXT 0,7 1 14,7 FX slide_l DLG 17
+EXT 0,8 1 14,8 FX slide_l DLG 16
+PAL 0
+TUNE 3
+
+ROOM 1
+d,c,c,c,c,c,c,c,c,c,c,c,c,c,c,e
+a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,b
+a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,b
+a,0,0,q,0,0,0,0,0,q,q,q,0,0,0,b
+a,0,0,q,0,0,0,0,0,q,0,0,0,0,0,b
+a,0,0,q,0,0,0,0,0,q,0,0,0,0,0,b
+a,0,0,0,0,0,q,0,0,q,q,0,0,0,0,b
+a,0,0,0,0,0,q,0,0,0,0,q,q,0,x,n
+a,0,0,0,0,q,0,0,0,0,0,q,q,0,0,m
+a,q,q,0,0,q,0,0,q,0,0,0,q,0,0,b
+a,0,0,0,0,0,q,0,q,q,0,0,q,0,0,b
+a,0,0,0,q,0,q,0,0,q,0,0,0,q,0,b
+a,0,0,0,q,0,0,0,q,0,0,0,0,q,0,b
+a,0,0,0,0,q,q,q,q,0,0,0,q,q,0,b
+a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,b
+g,h,h,h,h,h,h,k,l,h,h,h,h,h,h,f
+NAME Room 2
+EXT 7,14 2 7,1 FX slide_d DLG 19
+EXT 8,14 2 8,1 FX slide_d DLG 1a
+EXT 1,13 a 1,13 DLG 2h
+EXT 2,14 a 2,14 DLG 2h
+PAL 0
+TUNE 3
+
+ROOM 2
+d,c,c,c,c,c,c,p,o,c,c,c,c,c,c,e
+a,0,0,0,0,0,0,q,0,0,0,0,0,0,0,b
+a,0,0,0,0,0,0,q,q,0,0,0,0,q,0,b
+a,0,r,r,r,r,r,0,q,r,r,r,0,q,0,b
+a,0,r,0,r,0,r,0,0,r,0,r,r,r,w,b
+a,0,0,0,r,0,r,0,0,r,0,0,w,0,0,b
+a,r,r,r,r,q,r,r,r,r,r,r,r,0,0,b
+a,0,0,0,q,q,r,r,r,0,0,0,q,0,q,n
+a,0,0,q,0,0,r,r,r,r,r,r,r,q,q,m
+a,r,r,r,r,0,r,q,0,q,0,0,0,0,0,b
+a,0,0,q,r,q,r,0,q,q,0,r,r,r,w,b
+a,0,0,0,r,0,r,w,r,r,r,r,0,r,0,b
+a,q,0,0,r,0,r,0,0,r,0,r,r,r,0,b
+a,0,q,0,0,0,0,q,q,r,0,q,0,q,0,b
+a,0,0,0,0,q,q,q,0,r,q,0,q,q,q,b
+g,h,h,h,h,h,h,h,h,h,h,h,h,h,h,f
+NAME Room 3
+ITM 2 2,11
+ITM 1 10,12
+ITM 1 10,4
+ITM 1 9,7
+ITM 1 3,4
+ITM 1 1,7
+EXT 14,3 5 14,3 DLG 22
+PAL 0
+TUNE 3
+
+ROOM 3
+d,c,c,c,c,c,c,p,o,c,c,c,c,c,c,e
+a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,b
+a,0,q,q,0,0,0,0,0,0,0,0,0,0,0,b
+a,0,0,0,0,0,0,0,0,0,0,0,0,0,q,b
+a,0,0,0,0,q,q,0,0,q,0,0,0,q,0,b
+a,0,q,0,0,0,0,0,0,q,0,0,0,q,0,b
+a,0,0,0,0,0,0,0,0,0,0,0,q,0,0,b
+i,x,0,q,0,0,0,0,0,0,0,0,q,0,0,b
+j,x,0,q,0,0,0,s,s,s,0,0,0,0,0,b
+a,0,0,0,0,0,s,0,s,0,s,0,0,0,0,b
+a,t,t,t,u,s,s,0,s,0,s,s,v,t,t,b
+a,0,0,0,0,0,s,s,s,s,s,0,0,0,0,b
+a,0,0,0,q,0,0,s,s,s,0,0,0,q,0,b
+a,0,0,0,q,0,q,0,0,0,0,0,q,0,0,b
+a,0,0,0,0,0,0,0,0,0,q,0,0,0,0,b
+g,h,h,h,h,h,h,h,h,h,h,h,h,h,h,f
+NAME Room 4
+ITM 1 2,13
+EXT 13,9 9 13,9 DLG 27
+PAL 2
+TUNE 3
+
+ROOM 4
+d,c,c,c,c,c,c,0,0,c,c,c,c,c,c,e
+a,0,0,0,0,0,q,0,0,0,0,0,0,0,0,b
+a,0,q,q,0,0,q,q,q,0,q,0,0,0,0,b
+a,0,0,q,0,0,0,0,0,0,0,0,q,0,0,b
+a,0,q,q,0,0,0,0,q,0,0,0,q,q,0,b
+a,q,q,0,0,q,0,0,0,0,0,0,0,q,q,b
+a,0,0,0,q,0,0,0,0,0,0,0,0,q,0,b
+i,0,0,q,q,0,0,0,0,0,0,0,0,q,0,0
+j,0,0,q,0,0,0,0,0,0,0,q,q,0,0,0
+a,0,0,0,0,q,q,0,0,0,q,q,0,0,0,b
+a,q,q,0,0,0,q,0,0,0,q,0,q,q,q,b
+a,0,q,q,0,0,0,q,0,0,q,0,q,0,0,b
+a,0,0,q,0,0,0,0,0,0,0,0,q,q,0,b
+a,q,q,q,0,0,0,0,0,0,0,0,0,q,q,b
+a,q,0,0,0,0,0,0,0,0,0,0,0,0,0,b
+g,h,h,h,h,h,h,k,l,h,h,h,h,h,h,f
+NAME Room 1 copy 1
+END 1v 7,0
+END 1v 8,0
+END 1w 15,7
+END 1w 15,8
+PAL 0
+TUNE 3
+
+ROOM 5
+d,c,c,c,c,c,c,p,o,c,c,c,c,c,c,e
+a,0,0,0,0,0,0,q,0,0,0,0,0,0,0,b
+a,0,0,0,0,0,0,q,q,0,0,0,0,q,0,b
+a,0,r,r,r,r,r,0,q,r,r,r,0,q,0,b
+a,0,r,x,r,0,r,0,0,r,0,r,r,r,0,b
+a,0,0,0,r,0,r,0,0,r,0,0,w,0,0,b
+a,r,r,r,r,q,r,r,r,r,r,r,r,0,0,b
+a,0,0,0,q,q,r,r,r,0,0,0,q,0,q,n
+a,0,0,q,0,0,r,r,r,r,r,r,r,q,q,m
+a,r,r,r,r,0,r,q,0,q,0,0,0,0,x,b
+a,0,0,q,r,q,r,0,q,q,0,r,r,r,w,b
+a,0,0,0,r,0,r,w,r,r,r,r,0,r,0,b
+a,q,0,0,r,0,r,0,0,r,0,r,r,r,0,b
+a,0,q,0,0,0,0,q,q,r,0,q,0,q,0,b
+a,0,0,0,0,q,q,q,0,r,q,0,q,q,q,b
+g,h,h,h,h,h,h,h,h,h,h,h,h,h,h,f
+NAME Room 3 copy 1
+ITM 2 2,11
+ITM 1 10,12
+ITM 1 10,4
+ITM 1 9,7
+ITM 1 1,7
+EXT 14,9 6 14,9 DLG 23
+PAL 0
+TUNE 3
+
+ROOM 6
+d,c,c,c,c,c,c,p,o,c,c,c,c,c,c,e
+a,0,0,0,0,0,0,q,0,0,0,0,0,0,0,b
+a,0,0,0,0,0,0,q,q,0,0,0,0,q,0,b
+a,0,r,r,r,r,r,0,q,r,r,r,0,q,0,b
+a,0,r,x,r,0,r,0,0,r,0,r,r,r,0,b
+a,0,0,0,r,0,r,0,0,r,0,0,w,x,0,b
+a,r,r,r,r,q,r,r,r,r,r,r,r,0,0,b
+a,0,0,0,q,q,r,r,r,0,0,0,q,0,q,n
+a,0,0,q,0,0,r,r,r,r,r,r,r,q,q,m
+a,r,r,r,r,0,r,q,0,q,0,0,0,0,x,b
+a,0,0,q,r,0,r,0,q,q,0,r,r,r,0,b
+a,0,0,0,r,q,r,w,r,r,r,r,0,r,0,b
+a,q,0,0,r,0,r,0,0,r,0,r,r,r,0,b
+a,0,q,0,0,0,0,q,q,r,0,q,0,q,0,b
+a,0,0,0,0,q,q,q,0,r,q,0,q,q,q,b
+g,h,h,h,h,h,h,h,h,h,h,h,h,h,h,f
+NAME Room 3 copy 2
+ITM 2 2,11
+ITM 1 10,12
+ITM 1 10,4
+ITM 1 1,7
+EXT 13,5 7 13,5 DLG 1c
+PAL 0
+TUNE 3
+
+ROOM 7
+d,c,c,c,c,c,c,p,o,c,c,c,c,c,c,e
+a,0,0,0,0,0,0,q,0,0,0,0,0,0,0,b
+a,0,0,0,0,0,0,q,q,0,0,0,0,q,0,b
+a,0,r,r,r,r,r,0,q,r,r,r,0,q,0,b
+a,0,r,x,r,0,r,0,0,r,0,r,r,r,0,b
+a,0,0,0,r,0,r,0,0,r,0,0,0,x,0,b
+a,r,r,r,r,q,r,r,r,r,r,r,r,0,0,b
+a,0,0,0,q,q,r,r,r,0,0,0,q,0,q,n
+a,0,0,q,0,0,r,r,r,r,r,r,r,q,q,m
+a,r,r,r,r,0,r,q,0,q,0,0,0,0,x,b
+a,0,0,q,r,q,r,0,q,q,0,r,r,r,0,b
+a,0,0,0,r,0,r,w,r,r,r,r,0,r,0,b
+a,q,0,0,r,0,r,0,0,r,0,r,r,r,0,b
+a,0,q,0,0,0,0,q,q,r,0,q,0,q,0,b
+a,0,0,0,0,q,q,q,0,r,q,0,q,q,q,b
+g,h,h,h,h,h,h,h,h,h,h,h,h,h,h,f
+NAME Room 3 copy 3
+ITM 2 2,11
+ITM 1 10,4
+ITM 1 1,7
+EXT 7,10 8 7,10 DLG 24
+PAL 0
+TUNE 3
+
+ROOM 8
+d,c,c,c,c,c,c,p,o,c,c,c,c,c,c,e
+a,0,0,0,0,0,0,q,0,0,0,0,0,0,0,b
+a,0,0,0,0,0,0,q,q,0,0,0,0,q,0,b
+a,0,r,r,r,r,r,0,q,r,r,r,0,q,0,b
+a,0,r,x,r,0,r,0,0,r,0,r,r,r,0,b
+a,0,0,0,r,0,r,0,0,r,0,0,0,x,0,b
+a,r,r,r,r,q,r,r,r,r,r,r,r,0,0,b
+a,0,0,0,q,q,r,r,r,0,0,0,q,0,q,n
+a,0,0,q,0,0,r,r,r,r,r,r,r,q,q,m
+a,r,r,r,r,0,r,q,0,q,0,0,0,0,x,b
+a,0,0,q,r,q,r,0,q,q,0,r,r,r,0,b
+a,0,0,0,r,0,r,0,r,r,r,r,0,r,0,b
+a,q,0,0,r,0,r,0,0,r,0,r,r,r,0,b
+a,0,q,0,0,0,0,q,q,r,0,q,0,q,0,b
+a,0,0,0,0,q,q,q,0,r,q,0,q,q,q,b
+g,h,h,h,h,h,h,h,h,h,h,h,h,h,h,f
+NAME Room 3 copy 4
+ITM 2 2,11
+ITM 1 1,7
+EXT 14,7 3 1,7 DLG 21
+EXT 14,8 3 1,8 FX slide_r DLG 1d
+PAL 0
+TUNE 3
+
+ROOM 9
+d,c,c,c,c,c,c,p,o,c,c,c,c,c,c,e
+a,0,0,0,0,0,0,x,0,0,0,0,0,0,0,b
+a,0,q,q,0,0,0,0,0,0,0,0,0,0,0,b
+a,0,0,0,0,0,0,0,0,0,0,0,0,0,q,b
+a,0,0,0,0,q,q,0,0,q,0,0,0,q,0,b
+a,0,q,0,0,0,0,0,x,q,0,0,0,q,0,b
+a,0,0,0,0,0,0,0,0,0,0,0,q,0,0,b
+i,x,0,q,0,0,0,0,0,0,0,0,q,0,0,b
+j,x,0,q,0,0,0,s,s,s,0,0,0,0,0,b
+a,0,0,0,0,x,s,0,s,0,s,0,0,0,0,b
+a,t,t,t,u,s,s,s,s,s,s,s,v,0,t,b
+a,0,0,0,0,0,s,s,s,s,s,0,0,0,0,b
+a,0,0,0,q,0,0,s,s,s,0,0,0,q,0,b
+a,0,0,0,q,0,q,0,0,0,0,0,q,0,0,b
+a,0,0,0,0,0,0,0,0,0,q,0,0,0,0,b
+g,h,h,h,h,h,h,h,h,h,h,h,h,h,h,f
+NAME Room 4 copy 1
+ITM 1 2,13
+EXT 7,1 4 7,14 FX slide_u DLG 1f
+EXT 8,1 4 8,14 FX slide_u DLG 26
+PAL 2
+TUNE 3
+
+ROOM a
+d,c,c,c,c,c,c,c,c,c,c,c,c,c,c,e
+a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,b
+a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,b
+a,0,0,q,0,0,0,0,0,q,q,q,0,0,0,b
+a,0,0,q,0,0,0,0,0,q,0,0,0,0,0,b
+a,0,0,q,0,0,0,0,0,q,0,0,0,0,0,b
+a,0,0,0,0,0,q,0,0,q,q,0,0,0,0,b
+a,0,0,0,0,0,q,0,0,0,0,q,q,0,x,n
+a,0,0,0,0,q,0,0,0,0,0,q,q,0,0,m
+a,q,q,0,0,q,0,0,q,0,0,0,q,0,0,b
+a,0,0,0,0,0,q,0,q,q,0,0,q,0,0,b
+a,0,0,0,q,0,q,0,0,q,0,0,0,q,0,b
+a,0,0,0,q,0,0,0,q,0,0,0,0,q,0,b
+a,0,0,0,0,q,q,q,q,0,0,0,q,q,0,b
+a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,b
+g,h,h,h,h,h,h,k,l,h,h,h,h,h,h,f
+NAME Room 2 copy 1
+ITM 1 2,13
+EXT 7,14 2 7,1 FX slide_d DLG 19
+EXT 8,14 2 8,1 FX slide_d DLG 1a
+EXT 7,14 2 7,1 FX slide_d DLG 2n
+EXT 8,14 2 8,1 FX slide_d DLG 2n
+PAL 0
+TUNE 3
+
+TIL a
+11111111
+10000011
+10000011
+10000011
+10000011
+10000011
+10000011
+11111111
+>
+11111111
+10000011
+10000011
+10000011
+10000011
+10000011
+10000011
+11111111
+NAME Wall 1
+WAL true
+
+TIL b
+11111111
+11000001
+11000001
+11000001
+11000001
+11000001
+11000001
+11111111
+NAME Wall 2
+WAL true
+
+TIL c
+11111111
+10000001
+10000001
+10000001
+10000001
+10000001
+11111111
+11111111
+NAME Wall 3
+WAL true
+
+TIL d
+11111111
+10000011
+10000011
+10000011
+10000011
+10000011
+11111111
+11111111
+NAME Corner 1
+WAL true
+
+TIL e
+11111111
+11000001
+11000001
+11000001
+11000001
+11000001
+11111111
+11111111
+NAME Corner 2
+WAL true
+
+TIL f
+11111111
+11111111
+11000001
+11000001
+11000001
+11000001
+11000001
+11111111
+NAME Corner 3
+WAL true
+
+TIL g
+11111111
+11111111
+10000011
+10000011
+10000011
+10000011
+10000011
+11111111
+NAME Corner 4
+WAL true
+
+TIL h
+11111111
+11111111
+10000001
+10000001
+10000001
+10000001
+10000001
+11111111
+NAME Wall 4
+WAL true
+
+TIL i
+11111111
+00000011
+00000011
+00000011
+00000011
+00000011
+00000011
+00000011
+NAME Door 1
+WAL true
+
+TIL j
+00000011
+00000011
+00000011
+00000011
+00000011
+00000011
+00000011
+11111111
+NAME Door 2
+WAL true
+
+TIL k
+11111111
+11111111
+10000000
+10000000
+10000000
+10000000
+10000000
+10000000
+NAME Door 3
+WAL true
+
+TIL l
+11111111
+11111111
+00000001
+00000001
+00000001
+00000001
+00000001
+00000001
+NAME Door 4
+WAL true
+
+TIL m
+11000000
+11000000
+11000000
+11000000
+11000000
+11000000
+11000000
+11111111
+NAME Door 5
+WAL true
+
+TIL n
+11111111
+11000000
+11000000
+11000000
+11000000
+11000000
+11000000
+11000000
+NAME Door 6
+WAL true
+
+TIL o
+00000001
+00000001
+00000001
+00000001
+00000001
+00000001
+11111111
+11111111
+NAME Door 7
+WAL true
+
+TIL p
+10000000
+10000000
+10000000
+10000000
+10000000
+10000000
+11111111
+11111111
+NAME Door 8
+WAL true
+
+TIL q
+00000000
+00100010
+00000000
+00001000
+00100010
+00000000
+10010100
+00000000
+NAME Dirt
+
+TIL r
+11111111
+10000001
+10000001
+10000001
+10000001
+10000001
+10000001
+11111111
+NAME Maze Tile
+WAL true
+
+TIL s
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+NAME Slime
+WAL true
+
+TIL t
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+NAME Wall
+
+TIL u
+11111110
+11111110
+11111110
+11111110
+11111110
+11111110
+11111110
+11111110
+NAME Wall left
+WAL true
+
+TIL v
+01111111
+01111111
+01111111
+01111111
+01111111
+01111111
+01111111
+01111111
+NAME Wall Right
+WAL true
+
+TIL w
+11111111
+10100101
+10100101
+10100101
+10100101
+10100101
+10100101
+11111111
+NAME Maze Door
+WAL true
+
+TIL x
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+NAME Placement
+
+SPR 19
+00000000
+00001000
+00010100
+00111110
+01101011
+01111111
+00111110
+00011100
+>
+00000000
+00001000
+00011100
+00110110
+00111110
+01101011
+01111111
+00011100
+NAME Little Slime
+DLG p
+POS 3 11,3
+BLIP 6
+
+SPR 20
+00010000
+00101000
+01010100
+01000010
+01000010
+01000010
+00111100
+00000000
+>
+00001000
+00010100
+00101010
+01000010
+01000010
+01000010
+00111100
+00000000
+NAME Torch Light
+DLG 1x
+POS 8 4,14
+BLIP 2
+
+SPR 21
+00010000
+00101000
+01010100
+01000010
+01000010
+01000010
+00111100
+00000000
+>
+00001000
+00010100
+00101010
+01000010
+01000010
+01000010
+00111100
+00000000
+NAME Torch Light
+DLG 1y
+POS 9 1,5
+BLIP 2
+
+SPR 22
+00010000
+00101000
+01010100
+01000010
+01000010
+01000010
+00111100
+00000000
+>
+00001000
+00010100
+00101010
+01000010
+01000010
+01000010
+00111100
+00000000
+NAME Torch Light
+DLG 1z
+POS 9 12,14
+BLIP 2
+
+SPR 23
+00000000
+00001000
+00010100
+00111110
+01101011
+01111111
+00111110
+00011100
+>
+00000000
+00001000
+00011100
+00110110
+00111110
+01101011
+01111111
+00011100
+NAME Little Slime
+DLG 20
+POS 9 11,3
+BLIP 6
+
+SPR 24
+00000000
+00000000
+01111110
+01111110
+01100110
+01111110
+01111110
+00000000
+NAME Sign 5
+DLG 28
+POS 5 7,5
+BLIP 1
+
+SPR 25
+00000000
+00000000
+01111110
+01111110
+01100110
+01111110
+01111110
+00000000
+NAME Sign 6
+DLG 29
+POS 6 7,5
+BLIP 1
+
+SPR 26
+00000000
+00000000
+01111110
+01111110
+01100110
+01111110
+01111110
+00000000
+NAME Sign 7
+DLG 2a
+POS 7 7,5
+BLIP 1
+
+SPR 27
+00000000
+00000000
+01111110
+01111110
+01100110
+01111110
+01111110
+00000000
+NAME Sign 8
+DLG 2b
+POS 8 7,5
+BLIP 1
+
+SPR 28
+00000000
+00000000
+01111110
+01111110
+01100110
+01111110
+01111110
+00000000
+NAME Sign 9
+DLG 2c
+POS 0 10,7
+BLIP 1
+
+SPR 29
+00000000
+00001000
+00010100
+00111110
+01101011
+01111111
+00111110
+00011100
+>
+00000000
+00001000
+00010100
+00111110
+00111110
+01101011
+01111111
+00011100
+NAME Little Slime 2
+DLG 2d
+POS 1 10,10
+BLIP 6
+
+SPR 30
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+
+SPR 32
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+POS 9 5,9
+
+SPR 33
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+POS 9 11,9
+
+SPR 35
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+
+SPR 37
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+
+SPR 39
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+POS 9 8,7
+
+SPR A
+00000000
+00000000
+00011000
+00100100
+00111100
+00111100
+00111100
+00100000
+>
+00000000
+00000000
+00011000
+00100100
+00111100
+00111100
+00111100
+00000100
+POS 0 12,7
+
+SPR a
+00000000
+00000000
+01111110
+01111110
+01100110
+01111110
+01111110
+00000000
+NAME Sign
+DLG 0
+POS 0 1,9
+BLIP 1
+
+SPR b
+00000000
+11111110
+10000110
+11010110
+10001110
+11111110
+10100110
+00000000
+NAME Skull
+DLG 3
+POS 4 10,6
+
+SPR c
+00010000
+00101000
+01010100
+01000010
+01000010
+01000010
+00111100
+00000000
+>
+00001000
+00010100
+00101010
+01000010
+01000010
+01000010
+00111100
+00000000
+NAME Fire
+DLG 4
+POS 0 14,3
+BLIP 2
+
+SPR d
+00010000
+00101000
+01010100
+01000010
+01000010
+01000010
+00111100
+00000000
+>
+00001000
+00010100
+00101010
+01000010
+01000010
+01000010
+00111100
+00000000
+NAME Torch Light 2
+DLG 5
+POS 0 1,3
+BLIP 2
+
+SPR e
+00010000
+00101000
+01010100
+01000010
+01000010
+01000010
+00111100
+00000000
+>
+00001000
+00010100
+00101010
+01000010
+01000010
+01000010
+00111100
+00000000
+NAME Torch Light 3
+DLG 7
+POS 0 14,12
+BLIP 2
+
+SPR f
+00001000
+00010100
+00101010
+01000010
+01000010
+01000010
+00111100
+00000000
+>
+00010000
+00101000
+01010100
+01000010
+01000010
+01000010
+00111100
+00000000
+NAME Torch Light 4
+DLG 6
+POS 0 1,12
+BLIP 2
+
+SPR g
+00000000
+01111110
+01111110
+01100110
+00111100
+00111100
+00111100
+00100100
+>
+00000000
+00000000
+01111110
+01100110
+01111110
+00111100
+00111100
+00100100
+NAME Mysterious Person
+DLG 9
+POS 1 1,14
+
+SPR h
+00000000
+00000000
+01111110
+01111110
+01100110
+01111110
+01111110
+00000000
+NAME Sign 2
+DLG 8
+POS 1 13,7
+BLIP 1
+
+SPR i
+00001000
+00010100
+00101010
+01000010
+01000010
+01000010
+00111100
+00000000
+>
+00010000
+00101000
+01010100
+01000010
+01000010
+01000010
+00111100
+00000000
+NAME Torch Light 5
+DLG b
+POS 1 11,1
+
+SPR j
+00010000
+00101000
+01010100
+01000010
+01000010
+01000010
+00111100
+00000000
+>
+00001000
+00010100
+00101010
+01000010
+01000010
+01000010
+00111100
+00000000
+NAME Torch Light 6
+DLG c
+POS 1 4,1
+
+SPR k
+00010000
+00101000
+01010100
+01000010
+01000010
+01000010
+00111100
+00000000
+>
+00001000
+00010100
+00101010
+01000010
+01000010
+01000010
+00111100
+00000000
+NAME Torch Light 7
+DLG d
+POS 1 4,14
+
+SPR l
+00001000
+00010100
+00101010
+01000010
+01000010
+01000010
+00111100
+00000000
+>
+00010000
+00101000
+01010100
+01000010
+01000010
+01000010
+00111100
+00000000
+NAME Torch Light 8
+DLG e
+POS 1 11,14
+
+SPR m
+00001000
+00010100
+00101010
+01000010
+01000010
+01000010
+00111100
+00000000
+>
+00010000
+00101000
+01010100
+01000010
+01000010
+01000010
+00111100
+00000000
+NAME Torch Light 9
+DLG f
+POS 2 12,14
+
+SPR n
+00001000
+00010100
+00101010
+01000010
+01000010
+01000010
+00111100
+00000000
+>
+00010000
+00101000
+01010100
+01000010
+01000010
+01000010
+00111100
+00000000
+NAME Torch Light 10
+DLG g
+POS 2 4,14
+
+SPR o
+00010000
+00101000
+01010100
+01000010
+01000010
+01000010
+00111100
+00000000
+>
+00001000
+00010100
+00101010
+01000010
+01000010
+01000010
+00111100
+00000000
+NAME Torch Light 11
+DLG h
+POS 2 4,1
+
+SPR p
+00010000
+00101000
+01010100
+01000010
+01000010
+01000010
+00111100
+00000000
+>
+00001000
+00010100
+00101010
+01000010
+01000010
+01000010
+00111100
+00000000
+NAME Torch Light 12
+DLG i
+POS 2 12,1
+
+SPR q
+00000000
+00000000
+01111110
+01111110
+01100110
+01111110
+01111110
+00000000
+NAME Sign 4
+DLG k
+POS 2 7,5
+BLIP 1
+
+SPR 1a
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+NAME Big Slime
+DLG q
+BLIP 7
+
+SPR 1b
+00000000
+11111111
+00000000
+11111111
+00000000
+11111111
+00000000
+11111111
+NAME Door
+POS 3 13,10
+
+SPR 1c
+00010000
+00101000
+01010100
+01000010
+01000010
+01000010
+00111100
+00000000
+>
+00001000
+00010100
+00101010
+01000010
+01000010
+01000010
+00111100
+00000000
+NAME Torch Light 13
+DLG r
+POS 3 1,4
+
+SPR 1d
+00010000
+00101000
+01010100
+01000010
+01000010
+01000010
+00111100
+00000000
+>
+00001000
+00010100
+00101010
+01000010
+01000010
+01000010
+00111100
+00000000
+NAME Torch Light
+DLG s
+POS 3 12,14
+
+SPR 1e
+00010000
+00101000
+01010100
+01000010
+01000010
+01000010
+00111100
+00000000
+>
+00001000
+00010100
+00101010
+01000010
+01000010
+01000010
+00111100
+00000000
+NAME Torch Light
+DLG u
+POS 4 14,3
+
+SPR 1f
+00001000
+00010100
+00101010
+01000010
+01000010
+01000010
+00111100
+00000000
+>
+00010000
+00101000
+01010100
+01000010
+01000010
+01000010
+00111100
+00000000
+NAME Torch Light
+DLG v
+POS 4 14,12
+
+SPR 1g
+00001000
+00010100
+00101010
+01000010
+01000010
+01000010
+00111100
+00000000
+>
+00010000
+00101000
+01010100
+01000010
+01000010
+01000010
+00111100
+00000000
+NAME Torch
+DLG w
+POS 4 1,12
+
+SPR 1h
+00001000
+00010100
+00101010
+01000010
+01000010
+01000010
+00111100
+00000000
+>
+00010000
+00101000
+01010100
+01000010
+01000010
+01000010
+00111100
+00000000
+NAME Torch Light
+DLG x
+POS 4 1,3
+
+SPR 1i
+00000000
+11111110
+10000110
+11010110
+10001110
+11111110
+10100110
+00000000
+NAME Skull
+DLG y
+POS 0 10,6
+
+SPR 1j
+00000000
+00000000
+01111110
+01111110
+01100110
+01111110
+01111110
+00000000
+NAME Sign
+DLG z
+POS 4 12,2
+
+SPR 1l
+00010000
+00101000
+01010100
+01000010
+01000010
+01000010
+00111100
+00000000
+>
+00001000
+00010100
+00101010
+01000010
+01000010
+01000010
+00111100
+00000000
+NAME Torch Light
+DLG 1g
+POS 5 4,1
+BLIP 2
+
+SPR 1m
+00010000
+00101000
+01010100
+01000010
+01000010
+01000010
+00111100
+00000000
+>
+00001000
+00010100
+00101010
+01000010
+01000010
+01000010
+00111100
+00000000
+NAME Torch Light
+DLG 1h
+POS 5 12,1
+BLIP 2
+
+SPR 1n
+00010000
+00101000
+01010100
+01000010
+01000010
+01000010
+00111100
+00000000
+>
+00001000
+00010100
+00101010
+01000010
+01000010
+01000010
+00111100
+00000000
+NAME Torch Light
+DLG 1i
+POS 5 12,14
+BLIP 2
+
+SPR 1o
+00010000
+00101000
+01010100
+01000010
+01000010
+01000010
+00111100
+00000000
+>
+00001000
+00010100
+00101010
+01000010
+01000010
+01000010
+00111100
+00000000
+NAME Torch Light
+DLG 1j
+POS 5 4,14
+BLIP 2
+
+SPR 1p
+00010000
+00101000
+01010100
+01000010
+01000010
+01000010
+00111100
+00000000
+>
+00001000
+00010100
+00101010
+01000010
+01000010
+01000010
+00111100
+00000000
+NAME Torch Light
+DLG 1k
+POS 6 4,1
+BLIP 2
+
+SPR 1q
+00010000
+00101000
+01010100
+01000010
+01000010
+01000010
+00111100
+00000000
+>
+00001000
+00010100
+00101010
+01000010
+01000010
+01000010
+00111100
+00000000
+NAME Torch Light
+DLG 1l
+POS 6 12,1
+BLIP 2
+
+SPR 1r
+00010000
+00101000
+01010100
+01000010
+01000010
+01000010
+00111100
+00000000
+>
+00001000
+00010100
+00101010
+01000010
+01000010
+01000010
+00111100
+00000000
+NAME Torch Light
+DLG 1m
+POS 6 12,14
+BLIP 2
+
+SPR 1s
+00010000
+00101000
+01010100
+01000010
+01000010
+01000010
+00111100
+00000000
+>
+00001000
+00010100
+00101010
+01000010
+01000010
+01000010
+00111100
+00000000
+NAME Torch Light
+DLG 1n
+POS 6 4,14
+BLIP 2
+
+SPR 1t
+00010000
+00101000
+01010100
+01000010
+01000010
+01000010
+00111100
+00000000
+>
+00001000
+00010100
+00101010
+01000010
+01000010
+01000010
+00111100
+00000000
+NAME Torch Light
+DLG 1o
+POS 7 12,1
+BLIP 2
+
+SPR 1u
+00010000
+00101000
+01010100
+01000010
+01000010
+01000010
+00111100
+00000000
+>
+00001000
+00010100
+00101010
+01000010
+01000010
+01000010
+00111100
+00000000
+NAME Torch Light
+DLG 1p
+POS 7 4,1
+BLIP 2
+
+SPR 1v
+00010000
+00101000
+01010100
+01000010
+01000010
+01000010
+00111100
+00000000
+>
+00001000
+00010100
+00101010
+01000010
+01000010
+01000010
+00111100
+00000000
+NAME Torch Light
+DLG 1q
+POS 7 4,14
+BLIP 2
+
+SPR 1w
+00010000
+00101000
+01010100
+01000010
+01000010
+01000010
+00111100
+00000000
+>
+00001000
+00010100
+00101010
+01000010
+01000010
+01000010
+00111100
+00000000
+NAME Torch Light
+DLG 1r
+POS 7 12,14
+BLIP 2
+
+SPR 1x
+00010000
+00101000
+01010100
+01000010
+01000010
+01000010
+00111100
+00000000
+>
+00001000
+00010100
+00101010
+01000010
+01000010
+01000010
+00111100
+00000000
+NAME Torch Light
+DLG 1s
+POS 8 12,14
+BLIP 2
+
+SPR 1y
+00010000
+00101000
+01010100
+01000010
+01000010
+01000010
+00111100
+00000000
+>
+00001000
+00010100
+00101010
+01000010
+01000010
+01000010
+00111100
+00000000
+NAME Torch Light
+DLG 1t
+POS 8 12,1
+BLIP 2
+
+SPR 1z
+00010000
+00101000
+01010100
+01000010
+01000010
+01000010
+00111100
+00000000
+>
+00001000
+00010100
+00101010
+01000010
+01000010
+01000010
+00111100
+00000000
+NAME Torch Light
+DLG 1u
+POS 8 4,1
+BLIP 2
+
+SPR 2a
+00000000
+01111110
+01111110
+01100110
+00111100
+00111100
+00111100
+00100100
+>
+00000000
+00000000
+01111110
+01100110
+01111110
+00111100
+00111100
+00100100
+NAME Mysterious Person 2
+DLG 2f
+POS 1 5,2
+BLIP 8
+
+SPR 2b
+00000000
+01111110
+01111110
+01100110
+00111100
+00111100
+00111100
+00100100
+>
+00000000
+00000000
+01111110
+01100110
+01111110
+00111100
+00111100
+00100100
+NAME Mysterious Person 3
+DLG 2e
+POS 1 8,2
+BLIP 8
+
+SPR 2c
+00000000
+01111110
+01111110
+01100110
+00111100
+01111100
+10111100
+10100100
+>
+00000000
+00000000
+01111110
+01100110
+01111110
+01111100
+10111100
+10100100
+NAME Mysterious Person 4
+DLG 2g
+POS 1 1,7
+
+SPR 2d
+00000000
+01111110
+01111110
+01100110
+00111100
+01111100
+10111100
+10100100
+>
+00000000
+00000000
+01111110
+01100110
+01111110
+01111100
+10111100
+10100100
+NAME Mysterious Person 4
+DLG 2i
+POS a 1,7
+BLIP 8
+
+SPR 2e
+00000000
+00000000
+01111110
+01111110
+01111110
+00111100
+00111100
+00100100
+NAME Mysterious Person 5
+DLG 2j
+POS a 1,14
+
+SPR 2f
+00000000
+01111110
+01111110
+01100110
+00111100
+00111100
+00111100
+00100100
+>
+00000000
+00000000
+01111110
+01100110
+01111110
+00111100
+00111100
+00100100
+NAME Mysterious Person 6
+DLG 2k
+POS a 8,2
+
+SPR 2g
+00000000
+01111110
+01111110
+01100110
+00111100
+00111100
+00111100
+00100100
+>
+00000000
+00000000
+01111110
+01100110
+01111110
+00111100
+00111100
+00100100
+NAME Mysterious Person 7
+DLG 2l
+POS a 5,2
+
+SPR 2h
+00000000
+00001000
+00010100
+00111110
+01101011
+01111111
+00111110
+00011100
+>
+00000000
+00001000
+00010100
+00111110
+00111110
+01101011
+01111111
+00011100
+NAME Little Slime
+DLG 2m
+POS a 10,10
+BLIP 6
+
+SPR 2i
+00000000
+00000000
+01111110
+01111110
+01100110
+01111110
+01111110
+00000000
+NAME Sign 10
+POS a 13,7
+
+SPR 2j
+00010000
+00101000
+01010100
+01000010
+01000010
+01000010
+00111100
+00000000
+>
+00001000
+00010100
+00101010
+01000010
+01000010
+01000010
+00111100
+00000000
+POS a 4,14
+
+SPR 2k
+00010000
+00101000
+01010100
+01000010
+01000010
+01000010
+00111100
+00000000
+>
+00001000
+00010100
+00101010
+01000010
+01000010
+01000010
+00111100
+00000000
+POS a 11,14
+
+SPR 2l
+00010000
+00101000
+01010100
+01000010
+01000010
+01000010
+00111100
+00000000
+>
+00001000
+00010100
+00101010
+01000010
+01000010
+01000010
+00111100
+00000000
+POS a 11,1
+
+SPR 2m
+00010000
+00101000
+01010100
+01000010
+01000010
+01000010
+00111100
+00000000
+>
+00001000
+00010100
+00101010
+01000010
+01000010
+01000010
+00111100
+00000000
+POS a 4,1
+
+SPR 2n
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+NAME Big Slime
+DLG 2o
+POS 3 5,9
+
+SPR 2o
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+DLG 2p
+POS 3 6,8
+
+SPR 2p
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+DLG 2q
+POS 3 7,7
+
+SPR 2q
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+DLG 2r
+POS 3 8,6
+
+SPR 2r
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+DLG 2s
+POS 3 9,7
+
+SPR 2s
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+DLG 2t
+POS 3 10,8
+
+SPR 2t
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+DLG 2u
+POS 3 11,9
+
+SPR 2u
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+NAME Left Eye 1
+POS 3 7,9
+
+SPR 2v
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+NAME Right Eye 1
+POS 3 9,9
+
+SPR 2w
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+NAME Left Eye 2
+POS 3 7,10
+
+SPR 2x
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+NAME Right eye 2
+POS 3 9,10
+
+SPR 2y
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+DLG 2v
+POS 3 11,11
+
+SPR 2z
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+DLG 2w
+POS 3 5,11
+
+SPR 3a
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+POS 9 8,8
+
+SPR 3b
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+POS 9 7,9
+
+SPR 3c
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+POS 9 9,9
+
+SPR 3d
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+POS 9 7,10
+
+SPR 3e
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+POS 9 9,10
+
+SPR 3f
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+POS 9 11,11
+
+SPR 3g
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+POS 9 5,11
+
+SPR 3h
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+DLG 2x
+POS 9 6,8
+
+SPR 3i
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+DLG 2y
+POS 9 7,7
+
+SPR 3j
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+DLG 2z
+POS 9 8,6
+
+SPR 3k
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+DLG 30
+POS 9 9,7
+
+SPR 3l
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+DLG 31
+POS 9 10,8
+
+ITM 1
+00000000
+00111100
+00100100
+00111100
+00010000
+00011000
+00010000
+00011000
+NAME key
+DLG 2
+BLIP 5
+
+ITM 2
+00000000
+00010000
+00111000
+00101000
+00101000
+00101000
+00101000
+00010000
+NAME Sword
+DLG j
+
+DLG 0
+Find the sword or you will never leave
+NAME cat dialog
+
+DLG 2
+A key! {wvy}What does it open?{wvy}
+NAME key dialog
+
+DLG 3
+Someone's skull...
+NAME Skull dialog
+
+DLG 4
+The torch is able to light up the room
+NAME Fire dialog
+
+DLG 5
+The torch is able to light up the room
+NAME Torch Light 2 dialog
+
+DLG 6
+The torch is able to light up the room
+NAME Torch Light 4 dialog
+
+DLG 7
+The torch is able to light up the room
+NAME Torch Light 3 dialog
+
+DLG 8
+Once a set of doors open, they will forever close
+NAME Sign 2 dialog
+
+DLG 9
+I have been stuck here for many years... I was able to find the key over there but...
+NAME sprite g dialog
+
+DLG 10
+"""
+{
+  - {item "1"} >= 1 ?
+    {property locked false}
+    The key opens the door!
+  - else ?
+    {property locked true}
+    The door is locked...
+}
+"""
+NAME locked exit 2
+
+DLG 11
+"""
+{
+  - {item "1"} >= 2 ?
+    {property locked false}The key opens the door!
+  - else ?
+    {property locked true}The door is locked...
+}
+"""
+NAME locked exit 3
+
+DLG 12
+"""
+{
+  - {item "1"} >= 3 ?
+    {property locked false}The key opens the door!
+  - else ?
+    {property locked true}The door is locked...
+}
+"""
+NAME locked exit 4
+
+DLG 13
+"""
+{
+  - {item "1"} >= 4 ?
+    {property locked false}The key opens the door!
+  - else ?
+    {property locked true}The door is locked...
+}
+"""
+NAME locked exit 5
+
+DLG 14
+"""
+{
+  - {item "1"} >= 5 ?
+    {property locked false}The key opens the door!
+  - else ?
+    {property locked true}The door is locked...
+}
+"""
+NAME locked exit 6
+
+DLG 15
+"""
+{
+  - {item "1"} >= 1 ?
+    {property locked false}
+    The key opens the door!
+  - else ?
+    {property locked true}
+    The door is locked...
+}
+"""
+NAME locked exit 7
+
+DLG 16
+The doors close behind you as you pass through
+NAME exit narration 2
+
+DLG 17
+The doors close behind you as you pass through
+NAME exit narration 3
+
+DLG 19
+"""
+{
+  - {item "1"} >= 1 ?
+    {property locked false}The key opens the door! The doors close behind you as you pass through
+  - else ?
+    {property locked true}The door is locked...
+}
+"""
+NAME locked exit 8
+
+DLG 20
+You were able to use the sword!
+NAME Little Slime dialog 1
+
+DLG 21
+"""
+{
+  - {item "1"} >= 6 ?
+    {property locked false}The key opens the door! The doors close behind you as you pass through
+  - else ?
+    {property locked true}The door is locked...
+}
+"""
+NAME locked exit 15
+
+DLG 22
+"""
+{
+  - {item "1"} >= 2 ?
+    {property locked false}The key opens the door!
+  - else ?
+    {property locked true}The door is locked...
+}
+"""
+NAME locked exit 16
+
+DLG 23
+"""
+{
+  - {item "1"} >= 3 ?
+    {property locked false}The key opens the door!
+  - else ?
+    {property locked true}The door is locked...
+}
+"""
+NAME locked exit 17
+
+DLG 24
+"""
+{
+  - {item "1"} >= 5 ?
+    {property locked false}The key opens the door!
+  - else ?
+    {property locked true}The door is locked...
+}
+"""
+NAME locked exit 18
+
+DLG 25
+"""
+{
+  - {item "1"} >= 1 ?
+    {property locked false}
+    The key opens the door!
+  - else ?
+    {property locked true}
+    The door is locked...
+}
+"""
+NAME locked exit 19
+
+DLG 26
+"""
+{
+  - {item "2"} >= 1 ?
+    {property locked false}You use the Sword of Power to destroy the the gate standing between you and the last key
+  - else ?
+    {property locked true}The door is locked...
+}
+"""
+NAME locked exit 20
+
+DLG 27
+"""
+{
+  - {item "2"} >= 1 ?
+    {property locked false}You use the Sword of Power to destroy the only thing between you and the last key
+  - else ?
+    {property locked true}The door is locked...
+}
+"""
+NAME locked exit 21
+
+DLG 28
+The Sword of Power is here somewhere...
+NAME Sign 5 dialog
+
+DLG 29
+The Sword of Power is here somewhere...
+NAME Sign 6 dialog
+
+DLG 30
+Oh no! You have the Sword!!
+NAME sprite 3k dialog
+
+DLG 31
+Oh no! You have the Sword!!
+NAME sprite 3l dialog
+
+DLG a
+You walk through the doorway
+NAME exit narration 1
+
+DLG b
+The torch is able to light up the room
+NAME sprite i dialog
+
+DLG c
+The torch is able to light up the room
+NAME Torch Light 6 dialog
+
+DLG d
+The torch is able to light up the room
+NAME Torch Light 7 dialog
+
+DLG e
+The torch is able to light up the room
+NAME Torch Light 8 dialog
+
+DLG f
+The torch is able to light up the room
+NAME Torch Light 9 dialog
+
+DLG g
+The torch is able to light up the room
+NAME Torch Light 10 dialog
+
+DLG h
+The torch is able to light up the room
+NAME sprite o dialog
+
+DLG i
+The torch is able to light up the room
+NAME Torch Light 12 dialog
+
+DLG j
+You have found the Sword of Power!
+NAME Sword dialog
+
+DLG k
+The Sword of Power is here somewhere...
+NAME sprite q dialog
+
+DLG p
+You need the Sword of Power to defeat the Big Slime
+NAME Little Slime dialog
+
+DLG q
+Without the sword, you will never leave!!
+NAME Big Slime dialog
+
+DLG r
+The torch is able to light up the room
+NAME Torch Light 13 dialog
+
+DLG s
+The torch is able to light up the room
+NAME sprite 1d dialog
+
+DLG t
+"""
+{
+  - {item "1"} >= 1 ?
+    {property locked false}
+    The key opens the door!
+  - else ?
+    {property locked true}
+    The door is locked...
+}
+"""
+NAME locked exit 1
+
+DLG u
+The torch is able to light up the room
+NAME sprite 1e dialog
+
+DLG v
+The torch is able to light up the room
+NAME sprite 1f dialog
+
+DLG w
+The torch is able to light up the room
+NAME sprite 1g dialog
+
+DLG x
+The torch is able to light up the room
+NAME Torch Light dialog
+
+DLG y
+Someone's skull...
+NAME Skull dialog 1
+
+DLG z
+Find the sword or you will never leave
+NAME sprite 1j dialog
+
+DLG 1a
+"""
+{
+  - {item "1"} >= 1 ?
+    {property locked false}The key opens the door! The doors close behind you as you pass through
+  - else ?
+    {property locked true}The door is locked...
+}
+"""
+NAME locked exit 9
+
+DLG 1b
+"""
+{
+  - {item "1"} >= 1 ?
+    {property locked false}
+    The key opens the door!
+  - else ?
+    {property locked true}
+    The door is locked...
+}
+"""
+NAME locked exit 10
+
+DLG 1c
+"""
+{
+  - {item "1"} >= 1 ?
+    {property locked false}
+    The key opens the door!
+  - else ?
+    {property locked true}
+    The door is locked...
+}
+"""
+NAME locked exit 11
+
+DLG 1d
+"""
+{
+  - {item "1"} >= 1 ?
+    {property locked false}
+    The key opens the door!
+  - else ?
+    {property locked true}
+    The door is locked...
+}
+"""
+NAME locked exit 12
+
+DLG 1e
+"""
+{
+  - {item "2"} >= 1 ?
+    {property locked false}Using the sword, you destroy the only obstacle in your way!
+  - else ?
+    {property locked true}Without the sword, you can't get to the last key!
+}
+"""
+NAME locked exit 13
+
+DLG 1f
+"""
+{
+  - {item "1"} >= 7 ?
+    {property locked false}The key opens the door! The doors close behind you as you pass through
+  - else ?
+    {property locked true}The door is locked...
+}
+"""
+NAME locked exit 14
+
+DLG 1g
+The torch is able to light up the room
+NAME Torch Light dialog 1
+
+DLG 1h
+The torch is able to light up the room
+NAME Torch Light dialog 2
+
+DLG 1i
+The torch is able to light up the room
+NAME Torch Light dialog 3
+
+DLG 1j
+The torch is able to light up the room
+NAME sprite 1o dialog
+
+DLG 1k
+The torch is able to light up the room
+NAME sprite 1p dialog
+
+DLG 1l
+The torch is able to light up the room
+NAME sprite 1q dialog
+
+DLG 1m
+The torch is able to light up the room
+NAME Torch Light dialog 4
+
+DLG 1n
+The torch is able to light up the room
+NAME Torch Light dialog 5
+
+DLG 1o
+The torch is able to light up the room
+NAME Torch Light dialog 6
+
+DLG 1p
+The torch is able to light up the room
+NAME Torch Light dialog 7
+
+DLG 1q
+The torch is able to light up the room
+NAME Torch Light dialog 8
+
+DLG 1r
+The torch is able to light up the room
+NAME Torch Light dialog 9
+
+DLG 1s
+The torch is able to light up the room
+NAME sprite 1x dialog
+
+DLG 1t
+The torch is able to light up the room
+NAME Torch Light dialog 10
+
+DLG 1u
+The torch is able to light up the room
+NAME Torch Light dialog 11
+
+DLG 1v
+As you pass through the doors, the skull unearths itself. It follows close behind you...
+NAME ending 1
+
+DLG 1w
+As you pass through the doors, the doors close behind you and you escape the dungeon
+NAME ending 2
+
+DLG 1x
+The torch is able to light up the room
+NAME sprite 20 dialog
+
+DLG 1y
+The torch is able to light up the room
+NAME Torch Light dialog 12
+
+DLG 1z
+The torch is able to light up the room
+NAME Torch Light dialog 13
+
+DLG 2a
+The Sword of Power is here somewhere...
+NAME Sign 7 dialog
+
+DLG 2b
+The Sword of Power is here somewhere...
+NAME Sign 8 dialog
+
+DLG 2c
+Welcome to your Dungeon....you can never escape
+NAME Sign 9 dialog
+
+DLG 2d
+Oh! Another fool has gotten into our trap!
+NAME sprite 29 dialog
+
+DLG 2e
+You too? I also ended up wandering in here... 
+NAME Mysterious Person 3 dialog
+
+DLG 2f
+I have been trying to find a way out... 
+NAME Mysterious Person 2 dialog
+
+DLG 2g
+Hey new fella...the way out of here is the maze behind those doors...
+NAME Mysterious Person 4 dialog
+
+DLG 2h
+I have been stuck here for many years... I was able to find the key over there but...
+NAME exit narration 4
+
+DLG 2i
+I see you got the key...Poor fella must have found it before he passed on...
+NAME Mysterious Person 4 dialog 1
+
+DLG 2j
+The key must have fallen out of his hand...
+NAME Mysterious Person 5 dialog
+
+DLG 2k
+You have the key?! Quick get out of here!
+NAME Mysterious Person 6 dialog
+
+DLG 2l
+You better hurry and leave. We can't leave that other guy like that.
+NAME Mysterious Person 7 dialog
+
+DLG 2m
+You may have the key to open the door, but can you make through the maze?
+NAME Little Slime dialog 2
+
+DLG 2n
+"""
+{
+  - {item "1"} >= 1 ?
+    {property locked false}The key opens the door! The doors close behind you as you pass through
+  - else ?
+    {property locked true}The door is locked...
+}
+"""
+NAME locked exit 22
+
+DLG 2o
+You will never reach the Sword of Power!
+NAME Big Slime dialog 1
+
+DLG 2p
+You will never reach the Sword of Power!
+NAME sprite 2o dialog
+
+DLG 2q
+You will never reach the Sword of Power!
+NAME sprite 2p dialog
+
+DLG 2r
+You will never reach the Sword of Power!
+NAME sprite 2q dialog
+
+DLG 2s
+You will never reach the Sword of Power!
+NAME sprite 2r dialog
+
+DLG 2t
+You will never reach the Sword of Power!
+NAME sprite 2s dialog
+
+DLG 2u
+You will never reach the Sword of Power!
+NAME sprite 2t dialog
+
+DLG 2v
+
+NAME sprite 2y dialog
+
+DLG 2w
+
+NAME sprite 2z dialog
+
+DLG 2x
+Oh no! You have the Sword!!
+NAME sprite 3h dialog
+
+DLG 2y
+Oh no! You have the Sword!!
+NAME sprite 3i dialog
+
+DLG 2z
+Oh no! You have the Sword!!
+NAME sprite 3j dialog
+
+VAR a
+42
+
+TUNE 1
+3d,0,0,0,3d5,0,0,0,3l,0,0,0,3s,0,0,0
+16d2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+>
+4l,0,0,0,s,0,3l,0,0,0,2s,0,2m,0,2r,0
+16m2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+>
+3d,0,0,0,3d5,0,0,0,3l,0,0,0,3s,0,0,0
+16l2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+>
+3l,0,0,0,s,0,4m,0,0,0,4r,0,0,0,0,0
+16s2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME finale fanfare
+KEY C,D,E,F,G,A,B d,r,m,s,l
+TMP XFST
+SQR P2 P8
+ARP INT8
+
+TUNE 2
+0,0,2G,0,A,0,B,0,2C5,0,B,A,G,0,2G,0
+G3,0,D,0,G3,0,D,0,2A3,0,E,0,C,0,E,0
+>
+2F#,0,G,0,A,0,F#,0,2E,0,F#,E,4D,0,0,0
+2D,0,E,0,F#,0,D,0,2C,0,2G3,0,2F#3,0,D2,0
+>
+0,0,2G,0,A,0,B,0,2C5,0,B,A,G,0,G,0
+2G2,0,D,D5,G3,G,D,0,2C2,0,E,E5,C3,C,E5,0
+>
+2D,0,C5,B,A,0,A,0,4A,0,0,0,F#,0,0,0
+A2,0,E3,0,C3,0,E3,0,D3,0,A3,0,D,0,0,0
+>
+2E5,0,2G,0,2G5,0,2G,0,2F#5,0,2E5,0,2D5,0,2C5,0
+2C3,0,2E,0,2E5,0,2C,0,2A3,0,2C,0,2F#,0,2E,0
+>
+3B,0,0,0,2E5,0,D5,0,4A,0,0,0,G,0,0,0
+2G3,0,B3,0,2D,0,D3,0,2C3,0,G3,0,D#,0,0,0
+>
+0,0,2G,0,A,0,2B,0,C5,0,B,C5,A,0,G,0
+A2,0,A3,0,C,0,2D,0,D#,0,D,E,C,0,C3,0
+>
+8B,0,0,0,0,0,0,0,A,0,2F#,0,E,0,D,0
+D3,0,A3,0,F#,0,D,0,C,0,2D3,0,C3,0,F#3,0
+NAME tuneful town
+TMP FST
+SQR P4 P2
+
+TUNE 3
+3F5,0,0,A#,0,2C#5,0,A#,3F5,0,0,F#5,0,0,2F5,0
+A#3,C#,F,0,0,F,C#,F,A#3,C#,F,A#,0,A#,C#,F
+>
+3F5,0,0,A,0,2C#5,0,A,3F5,0,0,2A#5,0,A#,D#5,0
+A3,C#,F,A3,0,F,C#,F,A,C#,F,0,D#,0,C#5,0
+>
+4F5,0,0,0,G#,2C#5,0,G#,3F5,0,0,D#5,0,F5,2C#5,0
+G#3,C#,F,3F#,0,0,2F,0,G#3,C#,F,F#,B,A,F,D#
+>
+4D#5,0,0,0,0,0,2A#,0,4A#,0,0,0,0,0,A#,C5
+G3,D#,F,G,0,D#,F,G,G3,D#,G,F,0,F,D#,C#3
+>
+4C#5,0,0,0,0,0,2C#5,0,3C#5,0,0,D#5,0,0,2C#5,0
+F#2,C#,F#3,A#3,0,F#3,C#3,F#3,F#2,A,F#3,C#,0,F#3,A3,F#3
+>
+3C#5,0,0,F,3C5,0,0,C,3C5,0,0,D#,3A#,0,0,0
+F2,D#3,A3,0,0,F3,C#,0,F#2,A#3,D#3,0,0,F#3,C#,C
+>
+3A#,0,0,0,C5,0,C#5,0,A#,0,C#,D#,G#,G#3,0,C#3
+C3,A#3,C,E,A,0,A#,0,0,B2,B3,0,2F,0,0,0
+>
+A#,0,A#3,0,C#,0,F,0,A#,0,0,0,0,0,0,0
+A#2,0,C#3,0,F3,0,A#3,0,D,0,0,0,0,F#3,0,F3
+NAME rhythmic ruins
+TMP MED
+SQR P4 P4
+
+BLIP 1
+F#2,C#3,C#3
+NAME Sign
+ENV 40 99 4 185 138
+BEAT 61 115
+SQR P2
+
+BLIP 2
+F#2,G#2,F#2
+NAME Fire
+ENV 99 65 6 64 152
+BEAT 448 0
+SQR P4
+
+BLIP 3
+A#5,F5,B5
+NAME Sword Pick Up
+ENV 119 95 4 178 81
+BEAT 67 0
+SQR P8
+
+BLIP 4
+F,D#,G#
+NAME Maze Door
+ENV 85 98 9 184 91
+BEAT 86 0
+SQR P2
+
+BLIP 5
+A3,D3,C3
+NAME pick up 1
+ENV 109 67 6 89 87
+BEAT 75 0
+SQR P2
+
+BLIP 6
+G2,C3,G
+NAME Little Slime
+ENV 80 117 7 64 132
+BEAT 96 0
+SQR P2
+
+BLIP 7
+F2,F2,F#3
+NAME Big Slime
+ENV 115 100 5 159 99
+BEAT 107 0
+SQR P2
+
+BLIP 8
+A3,G#3,E3
+NAME People
+ENV 94 92 6 87 78
+BEAT 55 0
+SQR P8
+
